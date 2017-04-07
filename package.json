@@ -1,0 +1,22 @@
+{
+  "name": "movieapp_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molburt/js_day4_server.git"
+  },
+  "author": "Molly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molburt/js_day4_server/issues"
+  },
+  "homepage": "https://github.com/molburt/js_day4_server#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

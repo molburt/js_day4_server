@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+#button {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#plot {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}

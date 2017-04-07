@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/appStyles.css">
+        <title>Movie Info App</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/js/movieData.js"></script>
+    </head>
+    <body>
+        <h1> Search for Movie Information</h1>
+        <input id="titleField" placeholder="Movie Title" />
+        <button id="button">Search</button>
+        
+        <div class="basicInfo">
+            <h1 id="title"></h1><h2 id="rating"></h2>
+        </div>
+        <span id="poster"></span><span id="noImgText"></span>
+        <div class="basicInfo">
+            <h2 id="released"></h2>
+            <h2 id="actors"></h2>
+        </div>
+        <p id="plot"></p>
+    </body>
+</html>
